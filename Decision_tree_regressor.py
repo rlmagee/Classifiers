@@ -28,7 +28,6 @@ np.random.seed(42)
 #reshape from 1d -> 2d arrays for fit and predict
 X = sine_wave.reshape(-1,1)
 y = noisy_sine_wave.reshape(-1,1)
-print('X: ',sine_wave.shape, noisy_sine_wave.shape)
 
 #create a pair of Decision Tree Regressor:
 reg_tree_3 = DecisionTreeRegressor(max_depth=3,random_state=42)
